@@ -1,12 +1,12 @@
 import sqlalchemy
 
 
-connection_name = "lofty-bolt-313607:asia-southeast2:posdistre-user-report"
+connection_name = "project-name:region-zone:database-name" #feel with your HTTP trigger link
 table_name = "disaster_report"
 table_field = "keterangan,nama,deskripsi,alamat,tanggal,image"
 db_name = "user_report"
 db_user = "root"
-db_password = "8afodnBjhGB9JPit"
+db_password = "password" #feel with your instance password
 
 # If your database is MySQL, uncomment the following two lines:
 driver_name = 'mysql+pymysql'
