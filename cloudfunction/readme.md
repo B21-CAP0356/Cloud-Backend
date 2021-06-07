@@ -1,1 +1,1 @@
-Function that is required to for interact with the Cloud SQL
+Function that is required to interact with the Cloud SQL
