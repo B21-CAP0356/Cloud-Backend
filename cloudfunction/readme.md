@@ -28,7 +28,7 @@ OkHttpClient client = new OkHttpClient().newBuilder()
 MediaType mediaType = MediaType.parse("application/json");
 RequestBody body = RequestBody.create(mediaType, "{\r\n    \"keterangan_v\": \"jembatan\",\r\n    \"nama_v\": \"nama pelapor\",\r\n    \"deskripsi_v\": \"deskripsi kerusakan\",\r\n    \"alamat_v\": \"lokasi bangunan rusak\",\r\n    \"tanggal_v\": \"2021-06-02\",\r\n    \"image_v\": \"http:image link\"\r\n}");
 Request request = new Request.Builder()
-  .url("https://asia-southeast2-lofty-bolt-313607.cloudfunctions.net/insertdb")
+  .url("https://asia-southeast2-xxxx-xxxxx-xxxxxx.cloudfunctions.net/insertdb")
   .method("POST", body)
   .addHeader("Content-Type", "application/json")
   .build();
@@ -52,7 +52,7 @@ you can use java for putting the GET command in your android application
 OkHttpClient client = new OkHttpClient().newBuilder()
   .build();
 Request request = new Request.Builder()
-  .url("https://asia-southeast2-lofty-bolt-313607.cloudfunctions.net/selectdb")
+  .url("https://asia-southeast2-xxxxx-xxxxxx-xxxxxx.cloudfunctions.net/selectdb")
   .method("GET", null)
   .build();
 Response response = client.newCall(request).execute();
