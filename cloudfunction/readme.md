@@ -10,7 +10,7 @@ You can use POST command with curl
 you can use this in your terminal
 
 ```bash
-curl --location --request POST 'https://asia-southeast2-lofty-bolt-313607.cloudfunctions.net/insertdb' \
+curl --location --request POST 'https://asia-southeast2-xxxx-xxxxx-xxxxxx.cloudfunctions.net/insertdb' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "keterangan_v": "jembatan",
@@ -45,7 +45,7 @@ You can use GET command with curl
 you can use this in your terminal
 
 ```bash
-curl --location --request GET 'https://asia-southeast2-lofty-bolt-313607.cloudfunctions.net/selectdb'
+curl --location --request GET 'https://asia-southeast2-xxxxx-xxxxxx-xxxxxx.cloudfunctions.net/selectdb'
 ```
 
 ## Java
