@@ -2,7 +2,7 @@
 
 # To trigger the insertdb function :
 
-You can use POST command with curl 
+You can use POST command with curl or java
 
 ## Curl
 you can use this in your terminal
@@ -37,7 +37,7 @@ Response response = client.newCall(request).execute();
 ### Selectdb is used for getting all your CLOUD SQL record in json format.
 # To trigger the selectdb function :
 
-You can use GET command with curl 
+You can use GET command with curl or java
 
 ## Curl
 you can use this in your terminal
