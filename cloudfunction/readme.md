@@ -2,7 +2,7 @@ Function that is required to interact with the Cloud SQL
 
 To trigger 
 
-# To trigger the insert function :
+# To trigger the insertdb function :
 
 You can use POST command with curl 
 
