@@ -1,6 +1,4 @@
-Function that is required to interact with the Cloud SQL
-
-To trigger 
+### Insertdb is used for inserting record to your CLOUD SQL database.
 
 # To trigger the insertdb function :
 
@@ -36,7 +34,7 @@ Request request = new Request.Builder()
   .build();
 Response response = client.newCall(request).execute();
 ```
-
+### Selectdb is used for getting all your CLOUD SQL record in json format.
 # To trigger the selectdb function :
 
 You can use GET command with curl 
@@ -49,7 +47,7 @@ curl --location --request GET 'https://asia-southeast2-xxxxx-xxxxxx-xxxxxx.cloud
 ```
 
 ## Java
-you can use java for putting the POST command in your android application
+you can use java for putting the GET command in your android application
 ```java
 OkHttpClient client = new OkHttpClient().newBuilder()
   .build();
